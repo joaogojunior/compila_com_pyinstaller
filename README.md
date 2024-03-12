@@ -1,0 +1,2 @@
+Facilita a compilação de um arquivo python em um executavel, podendo adicionar um icone se existir arquivo .ico com mesmo nome do script, comprime com UPX se estiver disponível no path ou for fornecido como a variavel UPX_DIR, adiciona um import escondido se for especificado com HIDDEN_IMPORT, importa todo o venv ser IMPORT_VENV estive definido, permite janela de console se USA_CONSOLE estiver definido.
+Os nomes dos scripts a serem compilados devem ser fornecidas como parâmetros na linha de comando.
