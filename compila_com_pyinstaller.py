@@ -5,6 +5,7 @@ from sys import argv
 from pyinstaller_build_date import data_hora_build
 
 debug = False
+versao = "v0.1a"
 
 
 def le_variavel(variavel):
@@ -17,7 +18,7 @@ def le_variavel(variavel):
 
 
 if __name__ == '__main__':
-    print(argv[0] + " lançado em: " + data_hora_build + " by João Guilherme <joaogojunior@gmail.com>")
+    print(argv[0] + " " + versao + " lançado em: " + data_hora_build + " by João Guilherme <joaogojunior@gmail.com>")
     # lista de scripts a serem compilados (fornecido pela linha de comando)
     scripts_compilar = argv[1:]
 
